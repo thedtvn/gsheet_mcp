@@ -21,7 +21,7 @@ dependencies = [
 Homepage = "https://github.com/thedtvn/mbbank-mcp"
 
 [project.scripts]
-mbbank-mcp = "gsheet_mcp.__main__:main"
+gsheet_mcp = "gsheet_mcp.__main__:main"
 
 [tool.setuptools]
 packages = ["gsheet_mcp"]
