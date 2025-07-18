@@ -1,7 +1,7 @@
 [project]
 name = "gsheet-mcp"
 version = "0.0.5"
-description = "An MCP server for Google Sheets, allowing you to interact with Google Sheets using the MCP protocol.'
+description = "An MCP server for Google Sheets, allowing you to interact with Google Sheets using the MCP protocol."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
