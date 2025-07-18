@@ -1,0 +1,32 @@
+[project]
+name = "gsheet-mcp"
+version = "0.0.5"
+description = "An MCP server for Google Sheets, allowing you to interact with Google Sheets using the MCP protocol.'
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "The DT", email = "duongtuan30306@gmail.com" }
+]
+dependencies = [
+    "mcp",
+    "gspread",
+    "click",
+    "uvicorn",
+    "starlette",
+    "pydantic"
+]
+
+[project.urls]
+Homepage = "https://github.com/thedtvn/mbbank-mcp"
+
+[project.scripts]
+mbbank-mcp = "gsheet_mcp.__main__:main"
+
+[tool.setuptools]
+packages = ["gsheet_mcp"]
+include-package-data = true
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

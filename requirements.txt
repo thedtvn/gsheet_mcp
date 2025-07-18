@@ -1,0 +1,10 @@
+mcp
+click
+uvicorn
+starlette
+gspread
+pydantic
+
+# Build dependencies
+setuptools
+wheel
